@@ -2,15 +2,6 @@
 #include <stdio.h>
 #include <stdint.h>
 
-// Funktion zum Löschen des Bildschirms
-void clearScreen() {
-    #ifdef _WIN32
-        system("cls");
-    #else
-        system("clear");
-    #endif
-}
-
 int main(){
     //tool for Calculating of the Resistance of a Resistor Network
     //print Network Shematic
@@ -25,7 +16,6 @@ int main(){
     getResistorValue(&r3, "r3");
     getResistorValue(&r4, "r4");
 
-    clearScreen();
     printf("-----====---o---====---====---o---\n     %iOhm  I    %iOhm  %iOhm   I   \n            L------====-------I   \n                   %iOhm\n", r1, r2, r3, r4);
 
     //Calulate
