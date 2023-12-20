@@ -1,8 +1,9 @@
 #include <stdio.h>
+#include <stdint.h>
 
 int main(){
     // this tool is supposed to identify a given Symbol
-    int toCheck;
+    uint16_t toCheck;
     // input
     printf("please input a Single Number, letter or Symbol, this Programm is gonna identify it:\n");
     scanf("%c", &toCheck);
