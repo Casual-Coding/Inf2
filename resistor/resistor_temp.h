@@ -5,12 +5,14 @@
 
 class resistor_temp : public resistor
 {
+    //vars
     double alpha;
     double t_ref;
     double r_ref;
     double temp;
 
 public:
+
     resistor_temp(double p_alpha, double p_r_ref, double p_t_ref) :
     alpha {p_alpha},
     t_ref {p_t_ref},
