@@ -6,7 +6,7 @@ class resistor {
     double res;
 public:
         //constructor
-        resistor(double r) : res(r) {}
+        resistor(double r) : res{r} {}
         //set resistance, not done
         void set_res(double r) {res = r;}
         //functions
