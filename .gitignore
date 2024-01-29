@@ -2,3 +2,5 @@
 *.exe
 *.o
 resistor/resistor
+c_test_proj
+cplusplus_test_proj
